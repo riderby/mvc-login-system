@@ -5,11 +5,6 @@ class Template
     private $data;
     private $alertTypes;
 
-
-
-  
-
-
     function  load($url)
     {
         include($url);
@@ -74,7 +69,6 @@ class Template
         }
 
         return $data;
-
 
 }
 }
