@@ -1,0 +1,21 @@
+body { font-family: Arial; margin:0; }
+h1 { background: blue; padding: 20px; font-size: 1.2em; color: white;
+	margin: 0 0 20px 0; }
+#content { padding: 0 20px; }
+
+.alerts { padding: 0; margin-bottom: 20px; font-size: .9em; }
+	.alerts li { margin-bottom: 3px; list-style: none; }
+	.alerts li.success { background: #c8eebf; border:1px solid green; color:green;
+		padding: 8px; }
+	.alerts li.warning { background: #f6f6cf; border:1px solid orange; color:orange; 
+		padding: 8px; }
+	.alerts li.error { background: #fce9e9; border:1px solid red; color:red; 
+		padding: 8px; }
+
+label { float: left; width: 140px; display: block; padding-top:6px; }
+input { width: 220px; padding: 4px; float: left; }
+input.submit { width: 80px; }
+
+.required { color: red; font-size: .8em; margin: 20px 0; }
+div.error { float: left; color: red; padding: 6px 0 0 10px; font-size:.8em; }
+.row { clear:both; margin-bottom: 4px; float:left; }
